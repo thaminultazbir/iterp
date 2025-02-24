@@ -15,13 +15,14 @@
         </div>
         <div class="form-group">
             <label for="numberOfItems">Number of Items</label>
-            <input type="number" id="numberOfItems" name="numberOfItems" required>
+            <input type="number" id="numberOfItems" name="numberOfItems" min="1" required>
         </div>
-        <div class="form-group">
+        <div id="itemsContainer"></div>
+        <!-- <div class="form-group">
             <label for="itemDescription1">Item Description 1</label>
             <input type="text" id="itemDescription1" name="itemDescription1" required>
-        </div>
-        <div class="form-group">
+        </div> -->
+        <!-- <div class="form-group">
             <label for="price1">Price 1</label>
             <input type="number" id="price1" name="price1" step="0.01" required>
         </div>
@@ -40,7 +41,7 @@
         <div class="form-group">
             <label for="price3">Price 3</label>
             <input type="number" id="price3" name="price3" step="0.01">
-        </div>
+        </div> -->
         <div class="form-group">
             <label for="taxVat">VAT & TAX</label>
             <select id="taxVat" name="taxVat">

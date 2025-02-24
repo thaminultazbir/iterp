@@ -9,7 +9,7 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo"><a href="#">Rangs Properties Ltd.</a></div>
+        <div class="logo"><a href="./index.php">Rangs Properties Ltd.</a></div>
         <ul class="nav-links">
             <li><a href="billProcess.php" class="nav-item">Bill Process</a></li>
             <li><a href="#" class="nav-item">Bill Summary</a></li>
